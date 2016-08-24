@@ -1,0 +1,30 @@
+{
+  "name": "exposed-promise",
+  "version": "1.0.0",
+  "description": "Create Promises with optional handlers and publicly exposed resolve / reject methods.",
+  "main": "src/index.js",
+  "scripts": {
+    "prepublish": "npm test",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElliotChong/exposed-promise.git"
+  },
+  "author": "Elliot Chong <code+exposed-promise@elliotjameschong.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElliotChong/exposed-promise/issues"
+  },
+  "homepage": "https://github.com/ElliotChong/exposed-promise",
+  "dependencies": {
+    "lodash": "^4.15.0"
+  },
+  "optionalDependencies": {
+    "bluebird": "^3.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
